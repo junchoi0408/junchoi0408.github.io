@@ -19,7 +19,7 @@ const Experience = () => {
                     <hr className="gradient__hr"/>
                 </div>
                 <h2 className="title">Experience</h2>
-                <h4 className="about__description" style={{marginBottom: '0.5em', color: "#7D8597"}}>My mission is to pursue lifelong learning and growth and to share my experience and knowledge with others.</h4>
+                <h4 className="about__description" style={{marginBottom: '1em', color: "#7D8597"}}>My mission is to pursue lifelong learning and growth and to share my experience and knowledge with others.</h4>
                 <div className="job__small">
                     <Box style={{marginBottom: '3em'}}>
                         <Tabs
