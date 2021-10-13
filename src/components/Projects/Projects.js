@@ -4,11 +4,11 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <>
-            <div className="hr__container" id="projects">
-                <hr className="gradient__hr"/>
-            </div>
+        <> 
             <div className="projects container">
+                <div className="hr__container" id="projects">
+                    <hr className="gradient__hr"/>
+                </div>
                 <h2 className="title">Projects</h2>
                 <div className="projects__container">
                     <Project />

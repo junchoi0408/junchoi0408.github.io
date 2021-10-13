@@ -25,18 +25,14 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className="main__container">
         <About />
         <Experience />
         <Projects />
       </main>
       <Contact />
       <footer className="footer container" style={{color: "#33415C"}}>
-          <Box
-          component="form"
-          noValidate
-          autoComplete="off"
-        >
+          <div className="form__container">
             <TextField
               required
               id="outlined-required"
@@ -51,7 +47,7 @@ function App() {
               rows={6}
               onChange={onBodyChange}
             />
-          </Box>
+          </div>
           <div className="email__container">
             <a href="mailto:junchoi0408@gmail.com" className="gradient__btn email">Send Email</a>
           </div>

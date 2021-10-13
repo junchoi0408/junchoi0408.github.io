@@ -4,6 +4,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 .container {
     margin: 1em 1em;
 }
@@ -13,7 +14,7 @@
     border: none;
     height: 2px;
     width: 45px;
-    margin-left: 1em;
+    margin-left: 0;
     margin-top: 2.5em;
 }
 
@@ -35,6 +36,10 @@
 
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
     color: #5C677D !important;
+}
+
+.form__container {
+    width: 343px;
 }
 
 .email__container {
@@ -69,4 +74,28 @@
 .gradient__btn { 
     background-image: linear-gradient(to right, #fda8e5 0%, #92b3ec 51%, #fda8e5 100%);
     /* letter-spacing: 2px; */
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 650px;
+        margin: auto;
+    }
+
+    .gradient__hr {
+        border-radius: 10px;
+        height: 3px;
+        margin-bottom: 1em;
+    }
+
+    .form__container, .email__container, .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root, .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+        width: 650px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 850px;
+    }
 }

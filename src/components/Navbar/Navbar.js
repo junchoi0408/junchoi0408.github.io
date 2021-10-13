@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo__container">
-                <Cloud style={{margin:'0 0.5em 0 1em'}}/>
+                <Cloud id="cloud" style={{margin:'0 0.5em'}}/>
                 <h2 className="logo">JC</h2>
             </div>
             <div className="navbar__links">

@@ -40,7 +40,6 @@
 
 .job-desc {
     display: flex;
-    
 }
 
 .right {
@@ -76,41 +75,37 @@
     font-weight: 600 !important;
 }
 
+.css-10d9dml-MuiTabs-indicator {
+    background-image: linear-gradient(to right, #fda8e5 0%, #92b3ec 51%, #fda8e5 100%);
+}
+
 .css-1aquho2-MuiTabs-indicator {
     background-color: #fff !important;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
 }
 
-@media only screen and (min-width: 700px) {
-    .experience-body {
-        width: 60%;
-    }
+.job__big {
+    display: none;
 }
 
-@media only screen and (min-width: 1000px) { 
-    .job-container {
+@media only screen and (min-width: 1024px) {
+    .job__big {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
     }
 
-    .job-btn{
-        padding: 0 1em;
-        margin-bottom: 1em;
+    .job__container {
+        align-self: flex-start;
+        width: 100%;
+        margin-left: 4em;
     }
 
-    .active-btn {
-        border-left: 2px solid #495464;
-        border-bottom: 0;
+    .job__small {
+        display: none;
     }
-
-    .job-btn-container {
-        margin: 2em;
-    }
-
-    .experience-body {
-        margin: 0;
-        display: inline-block;
+    
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        padding: 0 !important;
     }
 }
 
@@ -122,3 +117,4 @@
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
     font-weight: 600 !important;
 }
+
