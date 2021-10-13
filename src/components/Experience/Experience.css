@@ -1,0 +1,124 @@
+.experience-body {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.job-btn {
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    line-height: 1;
+    outline-color: hsl(0, 0%, 0%);
+    font-family: inherit;
+    font-size: clamp(1em, 5vh, 1.25em);
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.active-btn {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.position {
+    font-weight: normal;
+    font-size: 1.25em;
+}
+
+.job {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.job-desc {
+    display: flex;
+    
+}
+
+.right {
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+.company {
+    color: #FFF;
+    background-color: #BBBFCA;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+    width: auto;
+    display: inline-block
+}
+
+.date {
+    color: hsl(0, 0%, 30%);
+}
+
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #7D8597 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: inherit !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    font-weight: 600 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #fff !important;
+    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+}
+
+@media only screen and (min-width: 700px) {
+    .experience-body {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1000px) { 
+    .job-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .job-btn{
+        padding: 0 1em;
+        margin-bottom: 1em;
+    }
+
+    .active-btn {
+        border-left: 2px solid #495464;
+        border-bottom: 0;
+    }
+
+    .job-btn-container {
+        margin: 2em;
+    }
+
+    .experience-body {
+        margin: 0;
+        display: inline-block;
+    }
+}
+
+.company__link {
+    color: inherit !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    font-weight: 600 !important;
+}

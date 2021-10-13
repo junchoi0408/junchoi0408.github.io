@@ -1,0 +1,49 @@
+.logo {
+    margin: auto;
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 9em;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.social__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.social__icons {
+    padding: 0.5rem;
+}
+
+.social__icons:hover {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.navbar__links { 
+    order: 3;
+    margin-top: 0.5em;
+    color: #979DAC;
+    font-weight: 500;
+}
+
+.navbar__links a { 
+    padding: 1em;
+}
