@@ -65,7 +65,7 @@
     color: inherit !important;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     -webkit-background-clip: text;
-    /* background-size: 100%; */
+    background-size: 100% 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
     background-image: -moz-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* FF 3.6+ */  
     background-image: -ms-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* IE10 */  
