@@ -88,7 +88,7 @@
         margin-bottom: 1em;
     }
 
-    .form__container, .email__container, .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root, .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+    .form__container, .email__container, .MuiOutlinedInput-root, .MuiOutlinedInput-root {
         width: 650px !important;
     }
 
