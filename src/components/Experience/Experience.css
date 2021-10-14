@@ -61,12 +61,7 @@
 }
 
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
-    font-family: 'Montserrat', sans-serif !important;
-    color: #7D8597 !important;
-}
-
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+.Mui-selected {
     color: inherit !important;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -75,12 +70,7 @@
     font-weight: 600 !important;
 }
 
-.css-10d9dml-MuiTabs-indicator {
-    background-image: linear-gradient(to right, #fda8e5 0%, #92b3ec 51%, #fda8e5 100%);
-}
-
-.css-1aquho2-MuiTabs-indicator {
-    background-color: #fff !important;
+.MuiTabs-indicator {
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
 }
 

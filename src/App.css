@@ -18,23 +18,23 @@
     margin-top: 2.5em;
 }
 
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+.MuiOutlinedInput-input {
     width: 343px !important;
 }
 
-.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root, .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+.MuiInputLabel-root, .MuiOutlinedInput-input {
     font-family: "Montserrat",sans-serif !important;
     color: #5C677D !important;
 }
 
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root, .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+.MuiOutlinedInput-root, .-MuiOutlinedInput-root {
     width: 343px !important;
     background-color: #161C27;
     color: #5C677D !important;
     margin-bottom: 1em;
 }
 
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.MuiInputLabel-root {
     color: #5C677D !important;
 }
 

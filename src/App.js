@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, About, Experience, Projects, Contact } from './components';
 import { GitHub, LinkedIn, Instagram } from '@mui/icons-material';
-import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
 import './App.css';
 
 function App() {
