@@ -62,11 +62,16 @@
 
 
 .Mui-selected {
-    color: inherit !important;
+    /* color: inherit !important; */
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
+    background-image: -linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* FF 3.6+ */  
+    background-image: -ms-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* IE10 */  
+    background-image: -webkit-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 4+, Chrome 2+ */  
+    background-image: -webkit-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 5.1+, Chrome 10+ */  
+    background-image: -o-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Opera 11.10 */  
     font-weight: 600 !important;
 }
 
@@ -99,7 +104,7 @@
         display: none;
     }
     
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    .MuiTab-root {
         padding: 0 !important;
     }
 }
