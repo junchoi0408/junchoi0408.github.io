@@ -60,27 +60,6 @@
     color: hsl(0, 0%, 30%);
 }
 
-
-.Mui-selected {
-    color: inherit !important;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    -webkit-background-clip: text;
-    background-size: 100% 100%;
-    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
-    background-image: -moz-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* FF 3.6+ */  
-    background-image: -ms-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* IE10 */  
-    background-image: -webkit-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 4+, Chrome 2+ */  
-    background-image: -webkit-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 5.1+, Chrome 10+ */  
-    background-image: -o-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Opera 11.10 */
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
-    background-repeat:no-repeat;
-    background-attachment: fixed;  
-    font-weight: 600 !important;
-}
-
 .MuiTabs-indicator {
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
 }
@@ -91,6 +70,15 @@
 
 .job__big {
     display: none;
+}
+
+.Mui-selected {
+    color: inherit !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    font-weight: 600 !important;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -122,4 +110,3 @@
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
     font-weight: 600 !important;
 }
-
