@@ -5,10 +5,10 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="logo__container">
+            <a href="/" className="logo__container">
                 <Cloud id="cloud" style={{margin:'0 0.5em'}}/>
                 <h2 className="logo">JC</h2>
-            </div>
+            </a>
             <div className="navbar__links">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
