@@ -53,15 +53,14 @@ const Experience = () => {
                 </div>
                 </div>
                 <div className="job__big">
-                    <Box style={{marginBottom: '3em'}}>
+                    <Box style={{ marginBottom: '3em' }}>
                         <Tabs
-                            orientation="vertical"
                             value={id}
                             onChange={handleChange}
                             variant="scrollable"
                             scrollButtons={false}
-                            textColor="secondary"
-                            indicatorColor="secondary"
+                            textColor="inherit"
+                            indicatorColor="inherit"
                             aria-label="list of companies"
                         >
                             {jobs.map(({company, id})=>{
