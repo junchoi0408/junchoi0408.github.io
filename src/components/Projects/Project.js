@@ -1,7 +1,6 @@
 import React from 'react';
 import { BiLinkExternal } from 'react-icons/bi';
 import { VscGithubAlt } from 'react-icons/vsc'
-import GitHubIcon from '@mui/icons-material/GitHub';
 import project from './project-management-I.jpg'
 import './Projects.css'
 
