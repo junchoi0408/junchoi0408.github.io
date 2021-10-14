@@ -62,12 +62,12 @@
 
 
 .Mui-selected {
-    /* color: inherit !important; */
+    color: inherit !important;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     -webkit-background-clip: text;
     background-size: 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
-    background-image: -linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* FF 3.6+ */  
+    background-image: -moz-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* FF 3.6+ */  
     background-image: -ms-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* IE10 */  
     background-image: -webkit-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 4+, Chrome 2+ */  
     background-image: -webkit-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important; /* Safari 5.1+, Chrome 10+ */  
