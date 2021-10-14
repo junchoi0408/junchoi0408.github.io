@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className="navbar">
-            <a href="/personal_portfolio_app" className="logo__container">
+            <a href="/" className="logo__container">
                 <Cloud id="cloud" style={{margin:'0 0.5em'}}/>
                 <h2 className="logo">JC</h2>
             </a>
