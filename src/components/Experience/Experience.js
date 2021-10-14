@@ -57,6 +57,7 @@ const Experience = () => {
                         <Tabs
                             value={id}
                             onChange={handleChange}
+                            orientation="vertical"
                             variant="scrollable"
                             scrollButtons={false}
                             textColor="inherit"
