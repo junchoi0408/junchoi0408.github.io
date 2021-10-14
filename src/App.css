@@ -76,6 +76,13 @@
     /* letter-spacing: 2px; */
 }
 
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 @media only screen and (min-width: 768px) {
     .container {
         width: 650px;

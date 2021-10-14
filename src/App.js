@@ -49,7 +49,7 @@ function App() {
           <div className="email__container">
             <a href="mailto:junchoi0408@gmail.com" className="gradient__btn email">Send Email</a>
           </div>
-        <div className="social__container" style={{color: '#fff'}}>
+        <div className="footer__social" style={{color: '#fff'}}>
           <a href="https://github.com/junchoi0408" target="_blank"><GitHub className="social__icons"/></a>
           <a href="https://www.linkedin.com/in/junwon-choi-487917139/" target="_blank"><LinkedIn className="social__icons"/></a>
           <a href="https://www.instagram.com/junchoi_0408/" target="_blank"><Instagram className="social__icons"/></a>
