@@ -4,7 +4,7 @@ Welcome to my personal website! In this project, you can get a sense of who I am
 
 ## Here is what the web app looks like!
 
-![ScreenShot](https://postimg.cc/w34qT2L1)
+[![Screenshot.png](https://i.postimg.cc/J4MGxdh5/Screenshot.png)](https://postimg.cc/w34qT2L1)
 
 ## Design Idea
 
