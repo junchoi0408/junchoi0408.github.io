@@ -70,8 +70,13 @@
     font-weight: 600 !important;
 }
 
+
 .MuiTabs-indicator {
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+}
+
+.MuiTab-root {
+    color: #7D8597 !important;
 }
 
 .job__big {

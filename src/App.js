@@ -20,9 +20,9 @@ function App() {
 
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+ 
+      <Navbar />
+
       <main className="main__container">
         <About />
         <Experience />

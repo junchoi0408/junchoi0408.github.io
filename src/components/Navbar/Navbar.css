@@ -94,7 +94,7 @@
     .navbar {
         max-width: 890px;
         justify-content: space-between;
-        margin: auto;
+        margin: 0.5em auto;
         padding: 0;
     }
 }
