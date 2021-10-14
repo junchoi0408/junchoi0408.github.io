@@ -63,7 +63,7 @@
 
 .Mui-selected {
     /* color: inherit !important; */
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
     -webkit-background-clip: text;
     background-size: 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
