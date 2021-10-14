@@ -66,7 +66,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 100%;
-    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%) !important;
     font-weight: 600 !important;
 }
 
