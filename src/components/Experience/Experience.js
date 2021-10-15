@@ -39,7 +39,7 @@ const Experience = () => {
                         })}
                     </Tabs>
                 </Box>
-                <div className="job__container">
+                <div className="job__container .container">
                     <h3 style={{marginTop: 0, fontWeight: 500, marginBottom: 0}}>{title} <span className="company__link">@<a href={link}>{company}</a></span></h3>
                     <p style={{marginTop: '0.5em', color: '#979DAC', fontSize: '14px', marginBottom: "2em"}}>{dates}</p>
                     {duties.map((duty, index)=>
@@ -71,7 +71,7 @@ const Experience = () => {
                             })}
                         </Tabs>
                     </Box>
-                    <div className="job__container">
+                    <div className="job__container .container">
                         <h3 style={{marginTop: 0, fontWeight: 500, marginBottom: 0}}>{title} <span className="company__link">@<a href={link}>{company}</a></span></h3>
                         <p style={{marginTop: '0.5em', color: '#979DAC', fontSize: '14px', marginBottom: "2em"}}>{dates}</p>
                         {duties.map((duty, index)=>
