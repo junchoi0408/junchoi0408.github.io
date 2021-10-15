@@ -74,8 +74,8 @@
 
 .Mui-selected {
     color: inherit !important;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
     background-size: 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
     font-weight: 600 !important;
@@ -104,8 +104,8 @@
 
 .company__link {
     color: inherit !important;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
     background-size: 100%;
     background-image: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
     font-weight: 600 !important;
