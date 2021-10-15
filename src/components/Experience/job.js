@@ -10,7 +10,7 @@ const jobs = [
     {
         id:1,
         title: "Software Engineer Intern",
-        dates: "October 2020 - January 2020",
+        dates: "October 2020 - January 2021",
         duties: ["Developed Python scripts to automate data entry which reduced entry time by ~95%","Enhanced company's business process by desigining and adopting MySQL to efficiently store transansaction and product data", "Performed data analysis to identify trend and potential market for beauty and nutrition products trends in South Korea"],
         company: "Blueporte Inc"
     },

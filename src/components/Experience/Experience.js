@@ -33,7 +33,7 @@ const Experience = () => {
                         >
                             {jobs.map(({company, id})=>{
                                 return (
-                                    <Tab disableRipple key={id} label={company} />
+                                    <Tab key={id} label={company} />
                                 )
                             })}
                         </Tabs>
@@ -65,7 +65,7 @@ const Experience = () => {
                         >
                             {jobs.map(({company, id})=>{
                                 return (
-                                    <Tab disableRipple key={id} label={company} />
+                                    <Tab key={id} label={company} />
                                 )
                             })}
                         </Tabs>
