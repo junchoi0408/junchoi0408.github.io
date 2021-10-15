@@ -109,4 +109,5 @@
 
 .gradient-text {
     -webkit-box-decoration-break: clone;
+    position: inline;
 }
