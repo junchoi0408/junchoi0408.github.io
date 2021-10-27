@@ -7,7 +7,7 @@
 .project__container { 
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 310px;
     margin: 2em auto;
     border: 1px solid rgba(2,12,27,0.7);;
     box-shadow: 2px 2px 2px 2px rgba(2,12,27,0.7);;
@@ -42,5 +42,33 @@
 }
 
 .project__img img {
-    width: 300px;
+    width: 310px;
 }
+
+.project__container h4 { 
+    margin-bottom: 0.5em;
+}
+
+.project__container p {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 430px) and (max-width: 1024px) {
+    .project__container {
+        width: 400px;
+    }
+
+    .project__img img {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .project__container { 
+        width: 390px;
+    }
+    .project__img img {
+        width: 390px;
+    }
+}
+    

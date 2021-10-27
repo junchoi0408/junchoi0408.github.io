@@ -1,26 +1,30 @@
 import React from 'react';
 import { BiLinkExternal } from 'react-icons/bi';
 import { VscGithubAlt } from 'react-icons/vsc'
-import project from './project-management-I.jpg'
 import './Projects.css'
 
-const Project = () => {
+
+
+const Project = ({ title, image, description, improvements, tech, link, github}) => {
     return (
         <>
             <div className="project__container">
-                <a className="project__img" src=""><img src={project} alt="img"/></a>
+                <a className="project__img" href={link}><img src={image} alt="project image"/></a>
                 <div className="project__content">
-                    <h3 style={{marginTop: 0}}><a href="">Project Name</a></h3>
-                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <h3 style={{marginTop: 0}}><a href={github}>{title}</a></h3>
+                    <h4>Project Description</h4>
+                    <p>{description}</p>
+                    <h4>Project Improvements</h4>
+                    <p>{improvements}</p>
+                    <h4>Built With</h4>
                     <div className="project__technologies">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Firebase</span>
-                        <span>Commerce.js API</span>
+                        {Object.keys(tech).map((technology, index)=> {
+                            return <span key={index}><a href={tech[technology]}>{technology.charAt(0).toUpperCase() + technology.slice(1)}</a></span>
+                        })}
                     </div>
                     <div className="icon__container">
-                        <a style={{fontSize: '1.75em', marginRight: "1em"}}><VscGithubAlt /></a>
-                        <a style={{fontSize: '1.75em'}}><BiLinkExternal /></a>
+                        <a style={{fontSize: '1.75em', marginRight: "1em"}} href={github} target="_blank" rel="noreferrer"><VscGithubAlt /></a>
+                        <a style={{fontSize: '1.75em'}} href={link} target="_blank" rel="noreferrer"><BiLinkExternal /></a>
                     </div>  
                 </div>                
             </div>

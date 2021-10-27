@@ -1,6 +1,27 @@
 import React from 'react';
 import Project from './Project';
+import babyBear from './img/baby-bear-ecommerce.PNG'
 import './Projects.css';
+
+const PastProjects = [
+    {
+        id: 0,
+        title: 'Baby Bear BB Ecommerce App',
+        image: babyBear,
+        description: 'The Baby Bear BB Ecommerce App is an E-commerce app that provides high quality, comfortable, and adorable baby clothes. The project began with reducing costs and adding more flexibility to the existing E-commerce website powered by shopify.',
+        improvements: '',
+        tech: { 
+            "react": "https://reactjs.org/",
+            "node.js": "https://nodejs.org/",
+            "firebase": "https://firebase.google.com/",
+            "commerce.js": "https://commercejs.com/",
+            "stripe.js": "https://stripe.com/",
+            "gsap": "https://greensock.com/gsap/",
+        },
+        link: 'https://junchoi0408.github.io/baby-bear-bb-ecommerce-app',
+        github: 'https://github.com/junchoi0408/baby-bear-bb-ecommerce-app'
+    },
+]
 
 const Projects = () => {
     return (
@@ -11,9 +32,9 @@ const Projects = () => {
                 </div>
                 <h2 className="title">Projects</h2>
                 <div className="projects__container">
-                    <Project />
-                    <Project />
-                    <Project />
+                    {PastProjects.map((project) => {
+                        return <Project key={project.id} {...project} />
+                    })}
                 </div>
             </div>
         </>
