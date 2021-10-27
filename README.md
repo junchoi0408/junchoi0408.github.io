@@ -4,11 +4,15 @@ Welcome to my personal website! In this project, you can get a sense of who I am
 
 ## Here is what the web app looks like!
 
+<<<<<<< HEAD
 [![Screenshot][screenshot]](https://junchoi0408.github.io)
 
 ## Build With
 
 * [React.js](https://reactjs.org/)
+=======
+[![Screenshot.png](https://i.postimg.cc/SsQNgzf1/Screenshot.png)](https://postimg.cc/7Cck6hcS)
+>>>>>>> 9e0f37b275e8c33f5d712f89d94b27c642a90c37
 
 ## Design Idea
 
