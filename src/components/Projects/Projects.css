@@ -65,10 +65,10 @@
 
 @media screen and (min-width: 1024px) {
     .project__container { 
-        width: 390px;
+        width: 500px;
     }
     .project__img img {
-        width: 390px;
+        width: 500px;
     }
 }
     

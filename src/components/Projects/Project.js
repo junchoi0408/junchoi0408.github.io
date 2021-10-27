@@ -15,7 +15,9 @@ const Project = ({ title, image, description, improvements, tech, link, github})
                     <h4>Project Description</h4>
                     <p>{description}</p>
                     <h4>Project Improvements</h4>
-                    <p>{improvements}</p>
+                    <p>{Object.keys(improvements).map((improvement)=>{return(
+                        <li key={improvement} style={{marginBottom: "0.5em"}}><b>{improvement}:</b> {improvements[improvement]}</li>
+                    )})}</p>
                     <h4>Built With</h4>
                     <div className="project__technologies">
                         {Object.keys(tech).map((technology, index)=> {

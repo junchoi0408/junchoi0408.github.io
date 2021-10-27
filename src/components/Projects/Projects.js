@@ -9,7 +9,10 @@ const PastProjects = [
         title: 'Baby Bear BB Ecommerce App',
         image: babyBear,
         description: 'The Baby Bear BB Ecommerce App is an E-commerce app that provides high quality, comfortable, and adorable baby clothes. The project began with reducing costs and adding more flexibility to the existing E-commerce website powered by shopify.',
-        improvements: '',
+        improvements: {
+            'API Calls': 'I would like to add caching methods to optimize the performance as current project calls API each time the component renders',
+            'Backend': 'Currently, we are using commerce.js to store and fetch list of products which costs about 3% per transaction. If we develop and manage backend ourselves, we can further reduce the cost.',
+        },
         tech: { 
             "react": "https://reactjs.org/",
             "node.js": "https://nodejs.org/",
