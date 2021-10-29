@@ -30,25 +30,30 @@ function App() {
       </main>
       <Contact />
       <footer className="footer container" style={{color: "#33415C"}}>
-          <div className="form__container">
+          <form className="form__container" method="POST" action="https://formsubmit.co/junchoi0408@gmail.com">
             <TextField
               required
               id="outlined-required"
               label="Email"
               onChange={onEmailChange}
+              name="Email"
             />
             <TextField
               required
               id="outlined-textarea"
               label="Message"
+              name="Message"
               multiline
               rows={6}
               onChange={onBodyChange}
             />
-          </div>
-          <div className="email__container">
-            <a href="mailto:junchoi0408@gmail.com" className="gradient__btn email">Send Email</a>
-          </div>
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="https://junchoi0408.github.io"/>
+            <button type="submit" className="gradient__btn email email__container" style={{fontSize: 16}}>Send Email</button>
+          </form>
+
+          
+
         <div className="footer__social" style={{color: '#fff'}}>
           <a href="https://github.com/junchoi0408" target="_blank"><GitHub className="social__icons"/></a>
           <a href="https://www.linkedin.com/in/junwon-choi-487917139/" target="_blank"><LinkedIn className="social__icons"/></a>
