@@ -12,7 +12,7 @@ const About = () => {
                     <BgAnimation className="BgAnimation__svg"/>
                 </div>
                 <div className="btn__container">
-                    <a className="gradient__btn btn">Download Resume</a>
+                    <a className="gradient__btn btn" target="_blank" href="Resume.pdf" download>Download Resume</a>
                 </div>
             </div>
         </>
