@@ -61,7 +61,7 @@
 }
 
 .MuiTabs-indicator {
-    background: linear-gradient(to right, #fda8e5 0%, #92b3ec 51%, #fda8e5 100%);
+    background: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
 }
 
 .MuiTab-root {
@@ -73,7 +73,11 @@
 }
 
 .Mui-selected {
-    color: #fda8e5 !important;
+    background-clip: text;
+    background: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    background: -webkit-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600 !important;
 }
 
@@ -99,7 +103,11 @@
 }
 
 .company__link {
-    color: #fda8e5 !important;
-    /* background: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%); */
+    /* color: hsl(0, 0%, 30%) !important; */
+    background-clip: text;
+    background: linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    background: -webkit-linear-gradient(to right, #92b3ec 0%, #fda8e5 51%, #fda8e5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600 !important;
 }
